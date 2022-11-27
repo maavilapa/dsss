@@ -7,5 +7,8 @@ setuptools.setup(
     author="Mateo Avila",
     author_email="mateo.avila@fau.de",
     description="Exercise 5 package",
-    packages=["snowflake"]
+    packages=["snowflake"],
+    install_requires=['turtles',
+                      'numpy',                     
+                      ],
 )
